@@ -2,4 +2,5 @@ print("-------------------------------------------------------------------------
 print("----------------------------------------------------------------------------------")
 pet_name = input("I would like to know your pet's name to make the band name interesting!")
 word = input("What is the word that defines you team well?")
+print("----------------------------------------------------------------------------------")
 print(f"The band name would be \"{word+" "+pet_name}\"")
