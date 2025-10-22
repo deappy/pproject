@@ -1,14 +1,22 @@
 print('-----------------------------------------------------')
 print("Welcome to RollerCoaster")
 print('-----------------------------------------------------')
-age = int(input("Enter you age : "))
 height = int(input("Enter you height : "))
+
+price=0
 print('-----------------------------------------------------')
-if age>=12:
-    if height<=120:
-        print("You must grow taller, try again next time!")
+if height >=120:
+    age = int(input("Enter you age : "))
+    if age<=12:
+        price=5
+    elif age<=18:
+        price=7
     else:
-        print("Enjoy your ride!!")
+        price=12
+    photo = input("Do you need a photogragh? (Y/N) : ")
+    if(photo == "Y"):
+        price+=1
+    print(f"The total price is ${price}")
 else:
-    print("You are underage, please come again next time!")
+    print("You must grow taller, try again next time!")
 print('-----------------------------------------------------')
