@@ -10,5 +10,5 @@ if age>=12:
     else:
         print("Enjoy your ride!!")
 else:
-    print("You are underage, come again next time!")
+    print("You are underage, please come again next time!")
 print('-----------------------------------------------------')
