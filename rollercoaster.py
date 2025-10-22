@@ -16,6 +16,7 @@ if height >=120:
     photo = input("Do you need a photogragh? (Y/N) : ")
     if(photo == "Y"):
         price+=1
+    print('-----------------------------------------------------')
     print(f"The total price is ${price}")
 else:
     print("You must grow taller, try again next time!")
