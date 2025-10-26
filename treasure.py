@@ -1,7 +1,5 @@
-import os
-terminal_width = os.get_terminal_size().columns
 
-print("=======================================================================================".center(terminal_width))
+print("=======================================================================================")
 
 text = r'''
  _
@@ -12,16 +10,15 @@ text = r'''
  \__|_|  \___|\__,_|___/\__,_|_|  \___| 
 '''
 
-print(text.center(terminal_width))
-print('\n\n\n')
+print(text)
 
-print("=======================================================================================".center(terminal_width))
-print("Welcome to TREASURE ISLAND!".center(terminal_width))
-print("=======================================================================================".center(terminal_width))
+print("=======================================================================================")
+print("Welcome to TREASURE ISLAND!")
+
 
 print('You are required to reach the island to acquire wealth from TREASURE!')
-print("=======================================================================================".center(terminal_width))
-choice1 = input("You are required to choose \"left\" or \"right\". Enter your choice!").lower()
+print("=======================================================================================")
+choice1 = input('You\'re at a crossroad, where do you want to go? Type "left" or "right".\n').lower()
 
 if choice1 == "left":
     choice2 = input('You\'ve come to a lake. '
